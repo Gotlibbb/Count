@@ -1,0 +1,54 @@
+html{
+    background-color: gray;
+
+}
+.counter {
+  text-align: center;
+
+
+}
+
+
+.display{
+
+    border: black solid;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 300px;
+    color:cyan;
+    font-size: 50px;
+
+}
+.info{
+    font-size: 35px;
+}
+
+.display-checked{
+
+ color: red;
+}
+
+.inc{
+    width: 120px;
+    font-size: 45px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.reset{
+    width: 120px;
+    font-size: 45px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+input {
+    font-size: 30px ;
+    width: 150px;
+    text-align: center;
+
+}
+.input-error{
+    border-color: red;
+}
