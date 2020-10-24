@@ -29,23 +29,28 @@ export const CountSetter = () => {
         countPage.newStartValue < 0;
 
     return (
-        <div>
-            <div>
+        <div className={"countSetter"}>
+            <div className={"max"}>
                 <span>max value</span>
                 <input type={"number"}
                        onChange={changeMaxValue}
-                       className={errorStyle ? "input-error" : ""}
+                       className={
+                           countPage.newMaxValue <= countPage.newStartValue ||
+                           countPage.newMaxValue < 0 ? "errorInput" : ""}
                        value={countPage.newMaxValue}/>
             </div>
             <div>
-                <span>start value</span>
+                <span className={"min"}>start value</span>
                 <input type={"number"}
                        onChange={changeStartValue}
+                       className={
+                           countPage.newMaxValue <= countPage.newStartValue ||
+                           countPage.newStartValue < 0 ? "errorInput" : ""}
                        value={countPage.newStartValue}/>
             </div>
             <Button
                 onClick={onClick}
-                name={"set"}
+                name={"set value"}
                 className={"inc"}
                 disabled={errorStyle ? true : false}/>
         </div>

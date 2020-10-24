@@ -8,9 +8,9 @@ function AppWithRedux() {
 
 
     return (
-        <div>
-            <Counter/>
+        <div className={"count"}>
             <CountSetter/>
+            <Counter/>
         </div>
 
     )

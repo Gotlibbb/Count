@@ -1,54 +1,126 @@
-html{
-    background-color: gray;
+html {
+    background-color: black;
+    display: block;
+
 
 }
+
+.count {
+    padding-top: 150px;
+    text-align: center;
+}
+
 .counter {
-  text-align: center;
-
-
-}
-
-
-.display{
-
-    border: black solid;
+    text-align: center;
+    border: white double thick;
     margin-left: auto;
     margin-right: auto;
+    width: 350px;
+    display: inline-block
 
+}
+
+.counter button {
+    margin-bottom: 15px;
+}
+
+
+.display {
+
+    border: white solid;
+    margin: 15px auto;
+    height: 228px;
     width: 300px;
-    color:cyan;
+    color: black;
+    font-family: "Bauhaus 93";
+
+    font-size: 151px;
+    background-color: antiquewhite;
+
+
+}
+
+.info {
+    color: green;
     font-size: 50px;
-
-}
-.info{
-    font-size: 35px;
 }
 
-.display-checked{
+.display-checked {
 
- color: red;
+    color: red;
 }
 
-.inc{
-    width: 120px;
+.inc {
+    width: 155px;
     font-size: 45px;
-    margin-right: 5px;
+    margin-right: 8px;
     font-weight: bold;
+
+
 }
 
-.reset{
-    width: 120px;
+.reset {
+    width: 155px;
     font-size: 45px;
     margin-left: 10px;
     font-weight: bold;
+
 }
+
 
 input {
-    font-size: 30px ;
+    font-size: 30px;
+    font-family: "Bauhaus 93";
     width: 150px;
     text-align: center;
+    margin-left: 24px;
+    background-color: antiquewhite;
+    caret-color: transparent;
 
 }
-.input-error{
+
+/*4px*/
+.max input {
+    margin-left: 26px;
+    margin-bottom: 5px;
+
+}
+
+.error {
+    font-size: 50px;
+    color: tomato;
+}
+
+.errorInput {
     border-color: red;
+    color: tomato;
+}
+
+.countSetter {
+
+    display: inline-block;
+    border: white double thick;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: 100px;
+    width: 350px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: "Bauhaus 93";
+
+
+}
+
+.countSetter span {
+    color: white;
+    font-size: 30px;
+    padding-right: 10px;
+
+}
+
+.countSetter button {
+    margin-top: 15px;
+    width: 330px;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
