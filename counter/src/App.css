@@ -76,6 +76,7 @@ input {
     margin-left: 24px;
     background-color: antiquewhite;
     caret-color: transparent;
+    outline:none;
 
 }
 
