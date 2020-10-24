@@ -22,6 +22,7 @@ export const Display = (props: DisplayPropsType) => {
         return (
             <div className={"display"}>
                 <div className={"info"}>Press "set" for change value</div>
+                <div>commit</div>
             </div>
         )
     } else {
